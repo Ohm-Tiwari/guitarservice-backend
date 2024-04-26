@@ -1,11 +1,13 @@
 package edu.iu.otiwari.guitarservice.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(schema = "guitars", name="guitars")
 public class GuitarData {
+    @Id
     private String serialNumber;
     private double price;
     private String builder;
