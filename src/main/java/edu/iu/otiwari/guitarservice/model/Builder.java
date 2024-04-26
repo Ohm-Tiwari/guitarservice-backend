@@ -10,8 +10,6 @@ public enum Builder {
             case MARTIN: return "Martin";
             case COLLINS: return "Collins";
             case OLSON: return "Olson";
-            case RYAN: return "Ryan";
-            case PRS: return "PRS";
             case ANY: return "Any";
             default: return "Unspecified";
         }

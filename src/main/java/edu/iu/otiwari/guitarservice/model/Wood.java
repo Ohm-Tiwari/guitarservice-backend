@@ -10,7 +10,6 @@ public enum Wood {
             case MAHOGANY: return "Mahogany";
             case MAPLE: return "Maple";
             case CEDAR: return "Cedar";
-            case ADIRONDACK: return "Adirondack";
             case ALDER: return "Alder";
             default: return "Unspecified";
         }
