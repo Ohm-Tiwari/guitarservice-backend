@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+@Component
 public class CustomerFileRepository {
     private static final Logger LOG =
             LoggerFactory.getLogger(CustomerFileRepository.class);
